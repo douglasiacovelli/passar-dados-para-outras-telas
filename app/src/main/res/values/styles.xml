@@ -1,0 +1,42 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+
+    <style name="Text">
+        <item name="android:fontFamily">@font/asap_regular</item>
+    </style>
+
+    <style name="Text.H1">
+        <item name="android:fontFamily">@font/lobster_regular</item>
+        <item name="android:textSize">22sp</item>
+    </style>
+
+    <style name="TextInputLayoutTheme">
+        <item name="boxStrokeColor">@color/box_stroke_color</item>
+        <item name="colorAccent">@color/white</item>
+        <item name="colorControlNormal">@color/white</item>
+        <item name="colorControlActivated">@color/white</item>
+        <item name="android:textColorHint">@color/white_80</item>
+    </style>
+
+    <style name="TextInputEditTextStyle">
+        <item name="android:textColor">@color/hint_text_color</item>
+    </style>
+
+    <style name="HintTextAppearance" parent="@style/TextAppearance.Design.Hint">
+        <item name="android:textColor">@color/hint_text_color</item>
+    </style>
+
+    <style name="TextButton" parent="@style/Widget.MaterialComponents.Button.TextButton">
+        <item name="rippleColor">@color/white</item>
+    </style>
+
+</resources>

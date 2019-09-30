@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Como passar dados para outras telas</string>
+    <string name="next_activity">Próxima Activity</string>
+    <string name="next_fragment">Próximo Fragment</string>
+    <string name="detail_activity_title">Activity de Detalhes</string>
+    <string name="detail_fragment_title">Fragment de Detalhes</string>
+    <string name="hint">Nome</string>
+</resources>
