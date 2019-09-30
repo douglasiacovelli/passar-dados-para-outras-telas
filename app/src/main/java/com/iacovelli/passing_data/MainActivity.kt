@@ -1,5 +1,6 @@
 package com.iacovelli.passing_data
 
+import android.content.Intent
 import android.graphics.Color
 import android.os.Bundle
 import android.view.View
@@ -24,10 +25,19 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun instantiateActivity() {
+        val name = nameInput.text.toString()
+        val intent = DetailActivity.createIntent(this, name, User("Douglas", 26, "azul"))
 
+        startActivity(intent)
     }
 
     private fun instantiateFragment() {
+        val name = nameInput.text.toString()
+        val fragment = DetailFragment.newInstance(name)
 
+        supportFragmentManager.beginTransaction()
+            .add(R.id.fragmentContainer, fragment)
+            .addToBackStack(null)
+            .commit()
     }
 }
