@@ -23,7 +23,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/nameInput"
+        android:id="@+id/nameInputLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:layout_constraintTop_toBottomOf="@+id/title"
@@ -34,6 +34,7 @@
         android:theme="@style/TextInputLayoutTheme">
 
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/nameInput"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             style="@style/TextInputEditTextStyle"/>
