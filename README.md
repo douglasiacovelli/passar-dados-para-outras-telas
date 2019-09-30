@@ -15,3 +15,9 @@ https://github.com/douglasiacovelli/passar-dados-para-outras-telas/pull/1
 ## Sobre o repositório
 
 Todo o código foi desenvolvido na Activity/Fragment por questões de demonstração.
+
+<p style="float: left">
+<img src="https://user-images.githubusercontent.com/1608564/65892022-f60c6200-e37b-11e9-94ec-9563295e832f.png" width="250px"/>
+<img src="https://user-images.githubusercontent.com/1608564/65892021-f573cb80-e37b-11e9-8826-dbda85a18972.png" width="250px"/>
+<img src="https://user-images.githubusercontent.com/1608564/65892020-f573cb80-e37b-11e9-80a3-528fef731eda.png" width="250px"/>
+</p>
